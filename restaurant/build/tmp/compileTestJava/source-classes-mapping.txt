@@ -1,0 +1,4 @@
+com/example/restaurant/RestaurantApplicationTests.java
+ com.example.restaurant.RestaurantApplicationTests
+com/example/restaurant/wishList/repository/WishListRepositoryTest.java
+ com.example.restaurant.wishList.repository.WishListRepositoryTest

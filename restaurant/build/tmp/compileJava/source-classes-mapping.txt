@@ -1,0 +1,12 @@
+com/example/restaurant/RestaurantApplication.java
+ com.example.restaurant.RestaurantApplication
+com/example/restaurant/db/WishListRepository.java
+ com.example.restaurant.db.WishListRepository
+com/example/restaurant/wishList/entity/WishListEntity.java
+ com.example.restaurant.wishList.entity.WishListEntity
+com/example/restaurant/db/MemoryDbRepositoryAbstract.java
+ com.example.restaurant.db.MemoryDbRepositoryAbstract
+com/example/restaurant/db/MemoryDbEntity.java
+ com.example.restaurant.db.MemoryDbEntity
+com/example/restaurant/db/MemoryDbRepositoryIfs.java
+ com.example.restaurant.db.MemoryDbRepositoryIfs
