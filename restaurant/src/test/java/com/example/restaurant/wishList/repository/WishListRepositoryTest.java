@@ -21,7 +21,7 @@ public class WishListRepositoryTest {
         wishList.setRoadAddress("road address");
         wishList.setHomePageLink("");
         wishList.setImageLink("");
-        wishList.setIsvisit(false);
+        wishList.setVisit(false);
         wishList.setVisitCount(0);
         wishList.setLastVisitDate(null);
 
