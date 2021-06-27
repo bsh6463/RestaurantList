@@ -30,3 +30,5 @@ com/example/restaurant/wishList/repopsitory/WishListRepository.java
  com.example.restaurant.wishList.repopsitory.WishListRepository
 com/example/restaurant/db/MemoryDbRepositoryIfs.java
  com.example.restaurant.db.MemoryDbRepositoryIfs
+com/example/restaurant/controller/PageController.java
+ com.example.restaurant.controller.PageController
