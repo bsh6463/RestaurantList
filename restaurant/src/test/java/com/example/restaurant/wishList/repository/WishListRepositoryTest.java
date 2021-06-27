@@ -1,6 +1,6 @@
 package com.example.restaurant.wishList.repository;
 
-import com.example.restaurant.db.WishListRepository;
+import com.example.restaurant.wishList.repopsitory.WishListRepository;
 import com.example.restaurant.wishList.entity.WishListEntity;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -49,7 +49,7 @@ public class WishListRepositoryTest {
         var saveEntity = wishListRepository.save(expected);
 
         Assertions.assertEquals("update Test", saveEntity.getTitle());
-        Assertions.assertEquals(1, wishListRepository.listAll().size());
+        Assertions.assertEquals(1, wishListRepository.findALl().size());
 
 
     }
@@ -72,7 +72,7 @@ public class WishListRepositoryTest {
 
         wishListRepository.deleteById(1);
 
-        int count = wishListRepository.listAll().size();
+        int count = wishListRepository.findALl().size();
 
         Assertions.assertEquals(0,count);
 
@@ -87,7 +87,7 @@ public class WishListRepositoryTest {
         var wishList2 = create();
         wishListRepository.save(wishList2);
 
-        int count = wishListRepository.listAll().size();
+        int count = wishListRepository.findALl().size();
 
         Assertions.assertEquals(2,count);
 

@@ -9,5 +9,5 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class MemoryDbEntity {
 
-    private int index; //pk
+    private Integer index; //pk
 }

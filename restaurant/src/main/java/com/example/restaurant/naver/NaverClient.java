@@ -53,11 +53,12 @@ public class NaverClient {
                 responseType
         );
 
+
         return responseEntity.getBody();
 
     }
 
-    public SearchImageRes SearchImageRes(SearchImageReq searchImageReq){
+    public SearchImageRes searchImage(SearchImageReq searchImageReq){
 
         var uri = UriComponentsBuilder.fromUriString(naverImageSearchUrl)
                 .queryParams(searchImageReq.toMultiValueMap())

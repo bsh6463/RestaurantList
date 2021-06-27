@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-abstract class MemoryDbRepositoryAbstract<T extends MemoryDbEntity> implements MemoryDbRepositoryIfs<T>{
+public abstract class MemoryDbRepositoryAbstract<T extends MemoryDbEntity> implements MemoryDbRepositoryIfs<T>{
 
     private final List<T> db = new ArrayList<>();
 
@@ -53,7 +53,7 @@ abstract class MemoryDbRepositoryAbstract<T extends MemoryDbEntity> implements M
     }
 
     @Override
-    public List<T> listAll() {
+    public List<T> findALl() {
         return db;
     }
 }
